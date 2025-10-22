@@ -69,3 +69,6 @@
 - Responsive UI with modern styling
 - Unit testing for API endpoints
 - Benchmark endpoint for performance testing
+<img width="912" height="295" alt="benchmark1" src="https://github.com/user-attachments/assets/ae523b7a-8805-47f6-a328-61c9af737335" />
+
+  
