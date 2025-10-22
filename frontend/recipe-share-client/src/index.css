@@ -1,0 +1,105 @@
+/* === Base Reset === */
+body {
+    margin: 0;
+    font-family: 'Poppins', system-ui, sans-serif;
+    background-color: #fffaf3; /* soft cream background */
+    color: #3c2f2f; /* deep brown for text */
+    padding: 20px;
+}
+
+/* === Header === */
+h1 {
+    text-align: center;
+    color: #b23a48; /* warm red like tomato */
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+/* === Recipe Card Container === */
+.recipe-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-left: 8px solid #ff7f50; /* coral orange accent */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .recipe-card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    /* === Titles & Subtitles === */
+    .recipe-card h2 {
+        margin-top: 0;
+        color: #2f4f4f; /* earthy dark greenish tone */
+    }
+
+    .recipe-card p {
+        margin: 6px 0;
+        line-height: 1.5;
+    }
+
+/* === Tags === */
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #ffd580; /* warm yellow */
+    color: #4b3832;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* === Buttons === */
+button {
+    background-color: #ff7f50;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+    button:hover {
+        background-color: #e5673b;
+        transform: scale(1.05);
+    }
+
+/* === Form Elements === */
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #d9b08c;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+    input:focus, textarea:focus {
+        border-color: #ff7f50;
+        outline: none;
+        box-shadow: 0 0 4px rgba(255, 127, 80, 0.4);
+    }
+
+/* === Footer === */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #6b4226;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
